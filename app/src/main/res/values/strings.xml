@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lab2Task2</string>
+    <string name="app_name">lab3Task2</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="fragment1_label">Fragment1</string>
