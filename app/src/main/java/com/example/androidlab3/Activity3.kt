@@ -9,6 +9,8 @@ class Activity3: BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = Activity3Binding.inflate(layoutInflater)
         binding.bnToFirst.setOnClickListener {
             setResult(RESULT_OK)
